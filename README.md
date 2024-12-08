@@ -1,10 +1,11 @@
-## Expo App Stack
+## Expo App with supabase Stack
 
-- expo-router
-- drawer+tabs
-- nativewind
+- [expo-router](https://docs.expo.dev/router/installation/#quick-start)
+- [drawer+tabs](https://docs.expo.dev/router/advanced/drawer/)
+- [nativewind](https://www.nativewind.dev/)
+- [gluestack-ui](https://gluestack.io/)
 - local set up supabase (you'll need supabase cli in global npm)
-- eslint9 + functional lite
+- [eslint9 + functional lite](https://github.com/eslint-functional/eslint-plugin-functional)
 
 How it was done:
 
