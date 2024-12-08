@@ -3,7 +3,7 @@
     "name": "gorevbasi",
     "slug": "gorevbasi",
     "version": "1.0.0",
-
+    "newArchEnabled": true,
     "scheme": "gorevbasi",
     "web": {
       "bundler": "metro",
@@ -32,6 +32,7 @@
       "supportsTablet": true
     },
     "android": {
+      "allowCleartextTraffic": true,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
