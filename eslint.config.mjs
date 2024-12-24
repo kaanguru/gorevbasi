@@ -5,14 +5,14 @@ import tsParser from '@typescript-eslint/parser';
 export default [
   {
     files: ['**/*.{ts,tsx}'],
-    ignores: ['**/components/ui/**'],
-
+    ignores: ['**/components/ui/**', '**/database.types.ts'],
     plugins: { '@typescript-eslint': tseslint, functional },
     rules: {
       ...functional.configs.externalTypeScriptRecommended.rules,
       ...functional.configs.lite.rules,
       ...functional.configs.stylistic.rules,
       'functional/no-return-void': 'off',
+      'functional/no-mixed-types': 'off',
       '@typescript-eslint/prefer-readonly': 'error',
     },
     languageOptions: {
