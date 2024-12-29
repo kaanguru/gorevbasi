@@ -23,3 +23,5 @@ EXPO_PUBLIC_SUPABASE_URL="http://10.0.2.2:54321"   EXPO_PUBLIC_SUPABASE_ANON_KEY
 6. `sort-package-json.cmd`
 7. [eslint.config.js for eslint9 · GitHub](https://gist.github.com/kaanguru/e1e479e56e899af40af67bc9245c402f)
 8. `"dev": "expo start -c",         "start": "supabase start && expo start",      "updatesdk": "expo install expo@latest && expo install --fix",` added into package.json
+
+Tools to bring your color palette to tailwind use [TailwindMate](https://tailwindmate.jaleelbennett.com/)
